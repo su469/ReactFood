@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+.mainDiv{
+text-align: center;
+margin-top: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.searchbox-div{
+    margin: 40px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cards-gap{
+    row-gap: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main-container{
+    margin:10px;
 }
-
-.App-link {
-  color: #61dafb;
+.cards{
+ border-radius: 12px 12px !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-box{
+    border-radius: 10px 10px;
+    width: 280px;
+    padding: 5px 5px;
+    border: 1px solid yellowgreen;
+}
+.formDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.submit-button{
+    background-color:goldenrod;
+    border-radius: 7px 7px 7px 7px;
+    width: 100px;
+}
+h1,h2{
+    color: chocolate;
+}
+h4{
+    color:blueviolet ;
+}
+.recipeDetails{
+    color: chocolate;
+}
+.Details-box{
+    max-width:600px;
+    margin-top: 50px;
+}
+.recipe-instuction{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400px;
 }
